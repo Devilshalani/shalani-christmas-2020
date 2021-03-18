@@ -30,15 +30,6 @@ gsap.to('.cloud2', {
 	scale: 1.1
 })
 
-gsap.to('.santa', {
-	scrollTrigger: {
-		scrub: true
-	},
-	x: innerWidth * 2,
-	y: - innerHeight,
-	scale: 1.3
-})
-
 gsap.to('.tree', {
 	scrollTrigger: {
 		scrub: true

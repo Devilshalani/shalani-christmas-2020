@@ -103,21 +103,11 @@ body
 	left: 0;
 	position: absolute;
 	width: 100%;
-	height: 15vh;
+	height: 10vh;
 	object-fit: cover;
 	z-index: 12;
 	background-image: url(../assets/images/tree.png);
 	background-repeat: repeat-x;
-}
-.container .santa
-{
-	bottom: 0;
-	left: -500px;
-	position: absolute;
-	width: 50%;
-	object-fit: cover;
-	z-index: 4;
-	/* filter: invert(100%); */
 }
 .container .cloud1
 {
@@ -139,7 +129,7 @@ body
 }
 .container .wish
 {
-	bottom: -100px;
+	bottom: -200px;
 	left: 0;
 	position: absolute;
 	width: 100%;
